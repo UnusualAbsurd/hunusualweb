@@ -20,19 +20,19 @@ $ cd ./dankmemer.lol
 2. Create .env file:
 
 ```shell
-COOKIE_SECRET=secret
-CLIENT_ID=id
-CLIENT_SECRET=secret
-CRYPT_KEYS=["key","key"]
+COOKIE_SECRET=reXJAoQMYnoLgVWYucVevfg69QTdvbxh
+CLIENT_ID=906898913498382396
+CLIENT_SECRET=4NxcL8z_cLeH-bQbY5ivDDiW-u-KglKu
+CRYPT_KEYS=["C9xGOZLhIqFX1evGDHj1LLA5N1BDIKVqEFkjmhx1d4U=","qG+ZpgiYZu2Ui/KYu5D4lA=="]
 DOMAIN=http://localhost:3000
-MONGODB_URI=mongodb://127.0.0.1:27017
+MONGODB_URI=mongodb+srv://user1:123@heckler.jz0jl.mongodb.net/WebsiteData?retryWrites=true&w=majority
 MONGODB_DB=website
-FEEDBACK_WEBHOOK=webhook_url
-REPORTS_USER_WEBHOOK=webhook_url
-REPORTS_SERVER_WEBHOOK=webhook_url
-APPEALS_USER_WEBHOOK=webhook_url
-APPEALS_SUPPORT_WEBHOOK=webhook_url
-APPEALS_COMMUNITY_WEBHOOK=webhook_url
+FEEDBACK_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
+REPORTS_USER_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
+REPORTS_SERVER_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
+APPEALS_USER_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
+APPEALS_SUPPORT_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
+APPEALS_COMMUNITY_WEBHOOK=https://discord.com/api/webhooks/908563617706819645/XThkY9hSUzymHFd5BakNJZsDGTqxllzzOVswo9j4la-pkciPQZwfrw51Px13w-4A0YSL
 ```
 
 -   You can generate CRYPT_KEYS by running: <br/>

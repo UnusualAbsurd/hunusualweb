@@ -123,7 +123,7 @@ export default function CommandsPage({ user }: PageProps) {
 					<div className="max-w-3xl text-lg  text-light-600 dark:text-light-300">
 						Find all the information, including required
 						permissions, regarding the extensive list of commands
-						available to you with Dank Memer.
+						available to you with Hunusual.
 					</div>
 				</div>
 				<div className="flex items-center space-x-0 lg:space-x-4">

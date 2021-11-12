@@ -103,16 +103,15 @@ export default function HomePage({ user }: PageProps) {
 				<div className="flex flex-col items-center space-y-8">
 					<div className="flex flex-col items-center max-w-3xl text-center">
 						<h1 className="text-6xl sm:text-7xl md:text-8xl font-bold text-dank-300 dark:text-white">
-							DANK MEMER
+							HUNUSUAL
 						</h1>
 						<p className="text-lg md:text-2xl max-w-lg md:max-w-xl text-center text-light-600 dark:text-gray-400">
-							Join millions of users around the world in Discord's
-							largest fun economic bot.
+							Utilize your discord server easier!
 						</p>
 					</div>
 					<FancyButton
 						text={"INVITE NOW"}
-						link="https://invite.dankmemer.lol"
+						link="https://discord.com/api/oauth2/authorize?client_id=906898913498382396&permissions=536857803991&scope=bot%20applications.commandsl"
 					/>
 				</div>
 				<div
@@ -148,57 +147,7 @@ export default function HomePage({ user }: PageProps) {
 				</div>
 				<div id="nitropay-home-top" className="nitropay" />
 			</div>
-			<div className="flex flex-col items-center mt-80 space-y-4 font-inter">
-				<div className="text-center">
-					<div className="text-3xl font-bold font-montserrat text-dank-300 dark:text-white">
-						What is it all about?
-					</div>
-					<div className="text-light-600 dark:text-light-300">
-						Here are a just a few of the things that makes Dank
-						Memer great.
-					</div>
-				</div>
-				<div
-					className={clsx(
-						"grid grid-cols-1 lg:grid-cols-2 gap-8",
-						"max-w-sm lg:max-w-3xl md:rounded-lg p-8",
-						"bg-light-500 lg:bg-light-500 dark:bg-dark-300 lg:dark:bg-dark-400",
-						"text-dark-100 dark:text-light-300"
-					)}
-				>
-					{QUICK_INFO.map((info) => (
-						<div
-							className="flex items-center align-middle rounded-lg"
-							key={info.icon}
-						>
-							<div
-								className={clsx(
-									"flex flex-col lg:flex-row items-center",
-									"space-x-0 space-y-4 lg:space-x-8 lg:space-y-0 p-8 lg:p-0"
-								)}
-							>
-								<div className="grid place-items-center min-w-[45px] min-h-[45px] rounded-full w-10 h-10 bg-gray-50 dark:bg-dark-300">
-									<span className="material-icons text-dank-300">
-										{info.icon}
-									</span>
-								</div>
-								<div className="flex flex-col text-center lg:text-left">
-									<h4 className="font-bold font-montserrat">
-										{info.title}
-									</h4>
-									<p className="text-md lg:text-sm">
-										{info.description}
-									</p>
-								</div>
-							</div>
-						</div>
-					))}
-				</div>
-			</div>
-			<div className="m-24">
-				<div id="nitropay-home-bottom" className="nitropay" />
-				<BottomCTA />
-			</div>
+	
 		</Container>
 	);
 }

@@ -42,7 +42,7 @@ export default function Container({ children, title, user }: Props) {
 
 	return (
 		<>
-			{title && <NextSeo title={`Dank Memer | ${title}`} />}
+			{title && <NextSeo title={`Hunusual | ${title}`} />}
 			<ToastContainer />
 			{announcement && !announcementHidden && (
 				<div className="w-full text-center bg-dank-300 relative">

@@ -42,45 +42,19 @@ export default function Navbar({ user }: Props) {
 							<li className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100">
 								<Link href="/commands">Commands</Link>
 							</li>
+
 							<li className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100">
-								<Link href="/faq">FAQ</Link>
+								<Link href="https://hunusualblog.netlify.app">Blog</Link>
 							</li>
-							<li className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100">
-								<Link href="/blogs">Blog</Link>
-							</li>
-							<li
-								className={clsx(
-									"inline-block  ",
-									discount
-										? "text-yellow-300 dark:text-yellow-300 hover:text-yellow-400 dark:hover:text-yellow-400"
-										: "text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100"
-								)}
-							>
-								<Link href="/loot">
-									<div className="flex items-center space-x-2 cursor-pointer">
-										<span>Store</span>
-										{!!discount && (
-											<span className="text-xs bg-yellow-300 text-dark-400 rounded-md px-2 font-bold font-montserrat">
-												SALE: {discount}%
-											</span>
-										)}
-									</div>
-								</Link>
-							</li>
-							<li className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100">
-								<Link href="/items">Items</Link>
-							</li>
-							<li className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100">
-								<Link href="/feedback">Feedback</Link>
-							</li>
+			
 						</ul>
 						<div className="ml-4 text-xl font-montserrat font-bold inline-block lg:hidden">
-							Dank Memer
+						  Hunusual
 						</div>
 					</div>
 
 					<div className="items-center relative hidden lg:flex">
-						<Link href="https://discord.gg/meme">
+						<Link href="https://discord.gg/vQGMhMRmsA">
 							<a
 								className="inline-block text-gray-800 dark:text-light-200 hover:text-dank-300 dark:hover:text-dank-100"
 								rel="noreferrer noopener"

@@ -64,11 +64,7 @@ export default function Reports({ user }: PageProps) {
 						<div className="text-3xl font-bold font-montserrat text-dark-400 dark:text-white">
 							Report a {type}
 						</div>
-						<div className="text-gray-500 dark:text-gray-400 max-w-2xl">
-							Please provide as much detail as possible when
-							submitting your report. We are unable to provide
-							details on the punishment from this report.
-						</div>
+
 					</div>
 					<div className="flex flex-col p-4 space-y-2">
 						<div className="flex flex-col space-y-2">

@@ -32,9 +32,9 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta property="og:image:height" content="64" />
 			</Head>
 			<DefaultSeo
-				defaultTitle="Dank Memer"
-				description="Dank Memer is a feature-rich Discord bot with the original twist of being sarcastic and memey. A MASSIVE currency system, tons of memes, and much more!"
-				canonical="https://dankmemer.lol"
+				defaultTitle="Hunusual"
+				description="Hunusual is a utility discord bot that makes you manage your server easily made by Hallel and UnusualAbsurd. This bot is made using discord.js and typescript"
+				canonical="https://hunusual.netlify.app"
 				additionalMetaTags={[
 					{
 						name: "keywords",
@@ -43,10 +43,10 @@ export default function App({ Component, pageProps }: AppProps) {
 					},
 				]}
 				openGraph={{
-					url: "https://dankmemer.lol",
-					title: "Dank Memer",
+					url: "https://hunusual.netlify.app",
+					title: "Hunusual",
 					description:
-						"Dank Memer is a feature-rich Discord bot with the original twist of being sarcastic and memey. A MASSIVE currency system, tons of memes, and much more!",
+						"Hunusual is a utility discord bot that makes you manage your server easily made by Hallel and UnusualAbsurd. This bot is made using discord.js and typescript",
 				}}
 			/>
 			<link

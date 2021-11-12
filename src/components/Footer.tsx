@@ -6,7 +6,7 @@ interface Props {}
 
 export default function Footer({}: Props) {
 	const { theme, setTheme } = useTheme();
-
+	
 	return (
 		<footer>
 			<div className="bg-light-200  dark:bg-dark-400 font-inter">
@@ -25,54 +25,27 @@ export default function Footer({}: Props) {
 									DANK MEMER
 								</h2>
 								<span className="text-md text-gray-400">
-									Copyright © {new Date().getFullYear()} Dank
-									Memer
+									Copyright © {new Date().getFullYear()} Hunusual
 								</span>
 								<span data-ccpa-link="1"></span>
 							</div>
 						</div>
 						<div className="flex space-x-6 lg:space-x-12">
 							<div className="flex flex-col space-y-0">
-								<a
-									className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer"
-									href="https://www.patreon.com/join/dankmemerbot"
-								>
-									Premium
-								</a>
+				
 								<Link href="/commands">
 									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
 										Commands
 									</span>
 								</Link>
-								<Link href="/blogs">
+								<Link href="https://hunusualblog.netlify.app">
 									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
 										Our blog
 									</span>
 								</Link>
 							</div>
 							<div className="flex flex-col">
-								<Link href="/staff">
-									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
-										Staff
-									</span>
-								</Link>
-								<Link href="/terms">
-									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
-										Terms
-									</span>
-								</Link>
-								<Link href="/privacy">
-									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
-										Privacy
-									</span>
-								</Link>
-							</div>
-							<div className="flex flex-col">
-								<Link href="/rules">
-									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
-										Rules
-									</span>
-								</Link>
+					
 								<Link href="/reports">
 									<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer">
 										Reports
@@ -83,31 +56,6 @@ export default function Footer({}: Props) {
 										Appeals
 									</span>
 								</Link>
-							</div>
-							<div className="flex flex-col">
-								<span className="text-dark-100 dark:text-gray-300 hover:text-dank-200 dark:hover:text-white cursor-pointer select-none flex items-center">
-									<div
-										onClick={() =>
-											setTheme(
-												theme === "dark"
-													? "light"
-													: "dark"
-											)
-										}
-									>
-										{theme === "dark"
-											? "Light Mode"
-											: "Dark Mode"}
-									</div>
-									<Expire
-										added={new Date("10-21-2021")}
-										expireIn="month"
-									>
-										<div className="bg-red-500 ml-2 px-2 py-0.5 text-xs rounded-md text-white">
-											NEW
-										</div>
-									</Expire>
-								</span>
 							</div>
 						</div>
 					</div>

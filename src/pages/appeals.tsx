@@ -71,11 +71,7 @@ export default function Appeals({ user }: PageProps) {
 								}[type]
 							}
 						</div>
-						<div className="text-gray-500 dark:text-gray-400 max-w-2xl">
-							Please provide as much detail as possible when
-							submitting your appeal. Appealing does not guarantee
-							a reprieval of the punishment.
-						</div>
+			
 					</div>
 					<div className="flex flex-col p-4 space-y-2">
 						<div className="text-lg font-bold font-montserrat text-dark-400 dark:text-white">
